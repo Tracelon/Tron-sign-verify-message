@@ -16,15 +16,17 @@ This project provides scripts to sign and verify messages using TronWeb. The scr
    cd tron-sign-verify-message
 
 2. **Install Dependencies**:
+
     Install the required Node.js packages:
    ```bash
     npm install
 
-3. **Environment Variables (optional)**:
+3. **(optional) Environment Variables**:
+
     You only need to follow this step if you want to sign a message with your Tron address.
     Please note that manipulating a private key has security concerns, and if not done properly, it might compromise your address.
     For those interested in signature verification only, this step can be skipped.
-    
+
     Create a .env file in the root directory of the project and add your private key:
    ```bash
     PRIVATE_KEY=YOUR_PRIVATE_KEY_HERE
